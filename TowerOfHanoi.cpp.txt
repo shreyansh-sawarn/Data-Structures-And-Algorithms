@@ -24,6 +24,5 @@ int main()
 	cin>>n;
 	//calling the TOH 
 	TOH(n,'A','B','C');
-	
 	return 0;
 }

@@ -194,6 +194,5 @@ int main()
 	InfixToPostfix(infix,postfix);                   /* call to convert */
 	printf("Postfix Expression: ");
 	puts(postfix);                     /* print postfix expression */
-
 	return 0;
 }

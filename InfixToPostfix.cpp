@@ -148,7 +148,7 @@ void InfixToPostfix(char infix_exp[], char postfix_exp[])
 		else
 		{ /* if current symbol is neither operand not '(' nor ')' and nor
 			operator */
-			printf("\nInvalid infix Expression.\n");        /* if it is illegeal  symbol */
+			printf("\nInvalid infix Expression.\n");        /*if it is illegeal  symbol */
 			getchar();
 			exit(1);
 		}
@@ -159,13 +159,13 @@ void InfixToPostfix(char infix_exp[], char postfix_exp[])
 	} /* while loop ends here */
 	if(top>0)
 	{
-		printf("\nInvalid infix Expression.\n");        /* if it is illegeal  symbol */
+		printf("\nInvalid infix Expression.\n");        /*if it is illegeal  symbol */
 		getchar();
 		exit(1);
 	}
 	if(top>0)
 	{
-		printf("\nInvalid infix Expression.\n");        /* if it is illegeal  symbol */
+		printf("\nInvalid infix Expression.\n");        /*if it is illegeal  symbol */
 		getchar();
 		exit(1);
 	}

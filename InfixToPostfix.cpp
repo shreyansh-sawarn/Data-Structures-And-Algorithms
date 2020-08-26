@@ -11,10 +11,6 @@
 #include<string.h>
 
 #define SIZE 100
-
-
-/* declared here as global variable because stack[]
-* is used by more than one fucntions */
 char stack[SIZE];
 int top = -1;
 

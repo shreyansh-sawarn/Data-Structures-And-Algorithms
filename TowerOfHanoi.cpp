@@ -1,7 +1,5 @@
 #include<iostream>
-using namespace std;
-
-//tower of HANOI function implementation
+using namespace std
 
 void TOH(int n,char Sour, char Aux,char Des)
 { 

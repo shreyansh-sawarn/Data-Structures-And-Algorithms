@@ -1,4 +1,4 @@
-// Searching on a B+ tree in C++
+// Insertion and Searching on a B+ tree in C++
 
 #include <climits>
 #include <fstream>
